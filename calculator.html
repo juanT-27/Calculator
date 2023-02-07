@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container flex__center-c">
+        <div class="calculator flex__center-evenly">
+            
+            <div class="screen  flex__center-c" id="screen"> 
+                <div class="operation flex__center-r" >
+                     <span class="output"id="operation"></span>
+                </div>
+                <span id="result" class="text"></span>
+            </div>
+            <span id="result" class="text2"></span>
+            <div class="operators flex__center-r ">
+                <input type="button" class="text2 operators__buttons btn flex__center-c" id="plus" value="+">
+                <input type="button" class="text2 operators__buttons btn flex__center-c" id="substract" value="-">
+                <input type="button" class="text2 operators__buttons btn flex__center-c" id="mult" value="X">
+                <input type="button" class="text2 operators__buttons btn flex__center-c" id="divi" value="/">
+                
+
+            </div>
+
+            <form class="numbers__grid" id="numbers">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="1" id="1">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="2" id="2">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="3" id="3">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="4" id="4">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="5" id="5">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="6" id="6">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="7" id="7">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="8" id="8">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="9" id="9">
+                <input type="button" class="numbers__buttons flex__center-c btn" value="0" id="0">
+                <input type="button" class="numbers__buttons btn" value="clear" id="clear">
+                <input type="button" class="numbers__buttons btn flex__center-c " id="equal" value="=">
+            </form>
+
+               
+            </div>
+       
+        
+    </main>
+<script src="calculator.js"></script>
+</body>
+</html>
